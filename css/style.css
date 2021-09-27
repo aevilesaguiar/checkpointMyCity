@@ -121,6 +121,9 @@
     margin: 0 auto;
   }
 
+.altura{
+  margin-top: 50px;
+}
 
    
          
@@ -214,12 +217,85 @@ header{
    margin: 0 auto;
    top: 60%;
    left: 50%;
-   margin-bottom: 50px;;
+   margin-bottom: 50px;
     }
+
+    .sobre-item-footer {
+      background-color: rgba(245, 118, 0, 0.034);
+      text-align: center;
+      color: #FFFFFF;
+      margin: 0 auto;
+      margin-bottom: 50px;;
+      padding: 5px;
+      border-radius: 10px;
+       }
+
+
+       .sobre-item-footer:hover{
+         background-color: #086de01e;
+
+       }
+   
 
 .sobre-footer {
       background-color: #334756;
       text-align: center;
      line-height: 1.25;
      padding: 30px;
+    }
+
+    .dado-footer{
+      text-align: center;
+    }
+
+    .form-dados-direction{
+        text-align: center;
+    }
+
+
+    input{
+      width: 500px;
+      height: 40px;
+      border-radius: 20px;
+      border-color: #FF4C29;
+      padding-left: 10px;
+      font-size: 1.25em;
+    }
+
+    label{
+      font-size: 1.25em;
+
+    }
+
+    select{
+      height: 40px;
+      width: 500px;
+      border-radius: 20px;
+      border-color: #FF4C29;
+      font-size: 1.25em;
+
+    }
+    textarea{
+      width: 500px;
+      border-radius: 20px;
+      border-color: #FF4C29;
+      padding: 10px;
+      font-size: 1.25em;
+    }
+
+
+    .display-button{
+      display: flex;
+     align-content: center;
+
+
+    }
+
+    .btn-info{
+      width: 200px;
+      border-radius: 20px;
+      height: 35px;
+      font-size: 1.25em;
+      align-items: center;
+    
     }
